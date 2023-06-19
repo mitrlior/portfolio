@@ -1,14 +1,18 @@
 import React from "react";
-import Canvas from "../UI/ParticlesBackground";
+import ParticlesBackground from "../UI/ParticlesBackground";
 import "./Home.css";
 
 const Welcome = () => {
+  const height = window.innerHeight;
+  const width = window.innerWidth;
+  console.log(`sizes:`);
+  console.log(`sizes: ${height} , ${width}`);
   return (
     <div>
-      <Canvas />
+      <ParticlesBackground height={height} width={width} />
       <div className="home">
         <p className="home__title">
-          Hello, I'm <span >Lior</span>. <br /> I'm a full-stack web developer.
+          Hello, I'm <span>Lior</span>. <br /> I'm a full-stack web developer.
         </p>
         <div className="home__button">
           About me&nbsp;
