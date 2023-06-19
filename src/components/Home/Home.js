@@ -6,13 +6,13 @@ const Welcome = () => {
   return (
     <div>
       <Canvas />
-      <div className="about-me">
-        <p className="about-me__title">
-          Hello, I'm Lior. <br /> I'm a full-stack web developer.
+      <div className="home">
+        <p className="home__title">
+          Hello, I'm <span >Lior</span>. <br /> I'm a full-stack web developer.
         </p>
-        <div className="about-me__button">
+        <div className="home__button">
           About me&nbsp;
-          <div class="about-me__arrow">&#10145;</div>
+          <div class="home__arrow">&#10145;</div>
         </div>
       </div>
     </div>

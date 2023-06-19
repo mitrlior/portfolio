@@ -1,4 +1,4 @@
-.about-me {
+.home {
   background: transparent;
   height: 100vh;
   width: 100vw;
@@ -9,14 +9,20 @@
   text-align: center;
 }
 
-.about-me__title {
+.home__title {
   margin: 0;
   color: white;
   font-size: 3rem;
   font-weight: bold;
 }
 
-.about-me__button {
+.home__title > span {
+  color: #fff6a9;
+  animation: blink 5s infinite;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+}
+
+.home__button {
   background-color: white;
   opacity: 0.3;
   padding: 0.5rem;
@@ -30,17 +36,41 @@
     0 0 0.8rem #60bbf0, 0 0 2.8rem #60bbf0, inset 0 0 1.3rem #60bbf0;
 }
 
-.about-me__button:hover {
+.home__button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
-.about-me__arrow {
+.home__arrow {
   display: inline-block;
   transition: transform 1s ease;
 }
 
-.about-me__button:hover .about-me__arrow {
+.home__button:hover .home__arrow {
   color: rgba(25, 110, 207, 0.8);
   transform: rotate(90deg);
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
 }
