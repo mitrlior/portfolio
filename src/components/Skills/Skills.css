@@ -1,0 +1,20 @@
+.skills{
+    background: green;
+    height: 100vh;
+    margin-top: 0;
+    
+}
+
+.skills__container{
+    list-style-type: none;
+}
+
+.skills__item {
+    display: inline-block;
+    justify-content: top;
+    vertical-align: middle;
+}
+
+h1 {
+    margin-top: 0;
+}

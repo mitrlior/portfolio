@@ -1,0 +1,46 @@
+.about-me {
+  background: transparent;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.about-me__title {
+  margin: 0;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-me__button {
+  background-color: white;
+  opacity: 0.3;
+  padding: 0.5rem;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #60bbf0,
+    0 0 0.8rem #60bbf0, 0 0 2.8rem #60bbf0, inset 0 0 1.3rem #60bbf0;
+}
+
+.about-me__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.about-me__arrow {
+  display: inline-block;
+  transition: transform 1s ease;
+}
+
+.about-me__button:hover .about-me__arrow {
+  color: rgba(25, 110, 207, 0.8);
+  transform: rotate(90deg);
+}
