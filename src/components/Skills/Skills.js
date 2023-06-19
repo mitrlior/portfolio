@@ -6,7 +6,7 @@ const Skills = () => {
   const skillsLists = [
     {
       title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "JavaScript"],
+      skills: ["JavaScript", "TypeScript", "Python", "Java"],
     },
     {
       title: "Frontend Technologies",
@@ -18,7 +18,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="skills">
+    <div id="skills" className="reveal">
       <h1>My Skills!</h1>
       <ul className="skills__container">
         {skillsLists.map((item) => (

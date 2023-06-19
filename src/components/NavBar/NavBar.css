@@ -1,0 +1,21 @@
+.nav-bar__container {
+  background: #272727;
+  margin: auto;
+}
+
+.nav-bar__menu {
+  background: #272727;
+  opacity: 0.2;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-radius: 8px;
+}
+
+.nav-bar__menu:hover {
+    opacity: 0.8;
+}

@@ -1,8 +1,6 @@
-.skills{
-    background: green;
-    height: 100vh;
-    margin-top: 0;
-    
+#skills{
+    margin: 30vh 0;
+    color: white;
 }
 
 .skills__container{
@@ -13,8 +11,4 @@
     display: inline-block;
     justify-content: top;
     vertical-align: middle;
-}
-
-h1 {
-    margin-top: 0;
 }

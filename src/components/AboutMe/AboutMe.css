@@ -1,0 +1,34 @@
+.about-me {
+  padding: 4rem;
+}
+
+.about {
+  margin: 4rem auto;
+}
+
+.about-me__title {
+  padding: 2rem 0;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.about-me__container {
+  color: white;
+  width: 30vw;
+  margin: auto;
+  padding: 2rem;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: #13b0f4;
+}
+
+.about-me__items {
+  text-align: left;
+  line-height: 1.6rem;
+}
+
+.about-me__item {
+  list-style-type: "\2732\00a0\00a0";
+}

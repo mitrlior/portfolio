@@ -1,6 +1,6 @@
 .skills-list {
-  color: white;
-  background: blue;
+  color: inherit;
+  background: #13b0f4;
   width: 15rem;
   height: 18rem;
   padding: 1rem;
@@ -17,5 +17,5 @@
 
 .skills-list li {
   text-align: left;
-  list-style-type: "\2713";
+  list-style-type: "\2713\00a0";
 }
