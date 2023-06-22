@@ -2,6 +2,8 @@ import Home from "./components/Home/Home";
 import AboutME from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import NavBar from "./components/NavBar/NavBar";
+import MyProjects from "./components/MyProjects/MyProjects";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 import "./App.css";
 
@@ -25,12 +27,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <NavBar /> 
+      <NavBar />
       <Home />
-      <AboutME rev={reveal} />
+      <AboutME />
       <Skills />
+      <MyProjects />
+      <ContactMe />
     </div>
   );
-}
+};
 
 export default App;

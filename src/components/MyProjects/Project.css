@@ -1,0 +1,36 @@
+.project__container {
+  background-color: var(--container-background-color);
+  display: inline-block;
+  padding: 0 2rem 2rem 2rem;
+  margin: 1rem;
+  width: 35vw;
+  border-radius: var(--box-border-radius);
+  box-shadow: var(--box-shadow);
+  justify-content: center;
+}
+
+.project__title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.project__image {
+  display: block;
+  margin: auto;
+}
+
+.project__description {
+    color: white;
+}
+
+.project__button {
+  color: white;
+  background: #0066ed;
+  transition: all 0.5s ease-in-out;
+  border-color: #98b1ff;
+}
+
+.project__button:hover {
+  background: #00669c;
+}

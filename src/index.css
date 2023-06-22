@@ -1,5 +1,8 @@
 :root {
   --transition: all 13s ease;
+  --container-background-color: #13b0f4;
+  --box-border-radius: 8px;
+  --box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
 }
 
 body {

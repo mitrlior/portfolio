@@ -1,0 +1,8 @@
+.button {
+    padding: 0.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: var(--box-border-radius);
+    box-shadow: var(--box-shadow);
+}

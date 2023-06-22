@@ -1,6 +1,6 @@
 .skills-list {
   color: inherit;
-  background: #13b0f4;
+  background: var(--container-background-color);
   width: 15rem;
   height: 18rem;
   padding: 1rem;

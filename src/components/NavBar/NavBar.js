@@ -16,6 +16,10 @@ const sections = [
     destination: "#skills",
   },
   {
+    title: "my projects",
+    destination: "#my-projects",
+  },
+  {
     title: "contact me",
     destination: "#contact-me",
   },
@@ -28,7 +32,6 @@ const NavBar = () => {
         {sections.map((section) => (
           <NavBarItem title={section.title} destination={section.destination} />
         ))}
-        <div class="dot"></div>
       </nav>
     </div>
   );
