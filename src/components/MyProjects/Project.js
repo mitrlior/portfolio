@@ -11,16 +11,16 @@ const Project = (props) => {
   return (
     <div className="project__container reveal">
       <p className="project__title">{props.title}</p>
-      <img className="project__image" src={props.image} />
+      <img className="project__image" src={props.image} alt={props.title} />
       <p className='project__description'>{props.description}</p>
       <Button
-        title={"Source"}
-        className={"project__button"}
+        title="Source"
+        className=" "
         onClick={() => handleClick(props.git)}
       />
       <Button
-        title={"Demo"}
-        className={"project__button"}
+        title="Demo"
+        className=""
         onClick={() => handleClick(props.demo)}
       />
     </div>

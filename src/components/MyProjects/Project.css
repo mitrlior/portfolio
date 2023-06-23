@@ -24,13 +24,3 @@
     color: white;
 }
 
-.project__button {
-  color: white;
-  background: #0066ed;
-  transition: all 0.5s ease-in-out;
-  border-color: #98b1ff;
-}
-
-.project__button:hover {
-  background: #00669c;
-}

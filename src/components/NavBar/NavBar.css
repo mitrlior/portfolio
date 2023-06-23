@@ -5,16 +5,15 @@
 
 .nav-bar__menu {
   background: #272727;
-  opacity: 0.2;
+  opacity: 0.4;
   padding: 0.5rem;
   position: fixed;
   bottom: 2rem;
-  width: 60vw;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 2;
-  border-radius: 8px;
+  border-radius: 1rem;
 }
 
 .nav-bar__menu:hover {

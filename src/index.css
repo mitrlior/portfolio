@@ -54,3 +54,7 @@ a {
 section {
   margin-top: 8rem;
 }
+
+textarea {
+  resize: none;
+}

@@ -1,0 +1,78 @@
+#contact-me {
+  margin: 10rem 0;
+}
+
+.contact__ways {
+  background-color: var(--container-background-color);
+  padding: 0 1rem;
+  margin: 0.5rem auto;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: var(--box-border-radius);
+}
+
+.contact__icon {
+  border-radius: 10px;
+  border: 3px solid transparent;
+  margin: 0.5rem;
+}
+
+.contact__icon:hover {
+  border: 3px solid black;
+}
+
+.contact__icon i {
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+.contact__ways i:hover {
+  border-radius: 20px solid black;
+  box-shadow: var(--box-shadow);
+}
+
+#contact-me > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contact__icon {
+  display: inline-block;
+}
+
+#contact-me form {
+  width: 50vw;
+  margin: auto;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: var(--container-background-color);
+  border-radius: var(--box-border-radius);
+  flex-direction: column;
+}
+
+.contact-me__label {
+  padding: 0 1.5rem;
+}
+
+#contact-me input,
+#contact-me textarea {
+  width: 90%;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+#contact-me textarea {
+  height: 4rem;
+}
+
+#contact-me input:focus,
+#contact-me textarea:focus {
+  outline: none;
+}
+
+.fa-linkedin {
+  height: 1em;
+  width: 1em;
+}
+

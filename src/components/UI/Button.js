@@ -6,7 +6,11 @@ const Button = (props) => {
   };
 
   return (
-    <button className={`button ${props.className}`} onClick={handleClick}>
+    <button
+      type={props.type ? props.type : ""}
+      className={`button ${props.className}`}
+      onClick={handleClick}
+    >
       {props.title}
     </button>
   );
