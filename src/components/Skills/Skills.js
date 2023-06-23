@@ -21,13 +21,13 @@ const Skills = () => {
     <div id="skills">
       <div className="reveal">
         <h1>My Skills!</h1>
-        <ul className="skills__container">
+        <div className="skills__container">
           {skillsLists.map((item) => (
             <li className="skills__item">
               <SkillsList title={item.title} skills={item.skills} />
             </li>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

@@ -1,14 +1,15 @@
-#skills{
-    margin: 30vh 0;
-    color: white;
+#skills {
+  color: white;
+  margin: 20vh auto;
 }
 
-.skills__container{
-    list-style-type: none;
+.skills__container {
+  /* list-style-type: none; */
+  margin: auto;
 }
 
 .skills__item {
-    display: inline-block;
-    justify-content: top;
-    vertical-align: middle;
+  display: inline-block;
+  justify-content: top;
+  vertical-align: middle;
 }

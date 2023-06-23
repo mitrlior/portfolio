@@ -1,5 +1,5 @@
 #contact-me {
-  margin: 10rem 0;
+  margin: 10vh 0;
 }
 
 .contact__ways {
@@ -58,17 +58,10 @@
 #contact-me input,
 #contact-me textarea {
   width: 90%;
-  padding: 1.5rem;
-  margin: 1rem 0;
 }
 
 #contact-me textarea {
-  height: 4rem;
-}
-
-#contact-me input:focus,
-#contact-me textarea:focus {
-  outline: none;
+  height: 2rem;
 }
 
 .fa-linkedin {
@@ -76,3 +69,9 @@
   width: 1em;
 }
 
+@media screen and (max-width: 1024px) {
+  #contact-me form{
+    width: 80%;
+    padding: 1rem;
+  }
+}

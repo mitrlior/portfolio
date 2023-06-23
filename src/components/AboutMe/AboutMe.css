@@ -26,9 +26,16 @@
 
 .about-me__items {
   text-align: left;
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 
 .about-me__item {
   list-style-type: "\2732\00a0\00a0";
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me__container {
+    width: 95%;
+    padding: 0;
+  }
 }

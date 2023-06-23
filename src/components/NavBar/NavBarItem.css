@@ -5,7 +5,6 @@
   text-transform: uppercase;
   font-weight: 500;
   display: inline;
-  /* width: 200px; */
   padding: 0 0.5rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -14,4 +13,10 @@
 
 .nav-bar__item:hover {
     color: #fddb3a;
+}
+
+@media (max-width: 1024px) {
+  .nav-bar__item {
+    font-size: 1rem;
+  }
 }

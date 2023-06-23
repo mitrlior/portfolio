@@ -17,5 +17,12 @@
 }
 
 .nav-bar__menu:hover {
-    opacity: 0.8;
+  opacity: 0.8;
+}
+@media (max-width: 1024px) {
+  .nav-bar__menu {
+    width: 100%;
+    bottom: 0%;
+    padding: 0;
+  }
 }

@@ -10,9 +10,9 @@
 }
 
 .project__title {
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .project__image {
@@ -21,6 +21,17 @@
 }
 
 .project__description {
-    color: white;
+  color: white;
 }
 
+@media screen and (max-width: 1024px) {
+  .project__container{
+    width: 90vw;
+    margin: 5vh auto;
+    padding: 3vh 2vw;
+  }
+  .project__image {
+    display: block;
+    width: 100%;
+  }
+}
