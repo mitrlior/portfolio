@@ -10,7 +10,7 @@ const AboutMe = () => {
           <ul className="about-me__items">
             <li className="about-me__item">Full-Stack / Backend Developer</li>
             <li className="about-me__item">
-              I have 1 experience in Backend Development with JavaScript and
+              I have 1 year experience in Backend Development with JavaScript and
               TypeScript
             </li>
             <li className="about-me__item">

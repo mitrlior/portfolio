@@ -4,12 +4,11 @@
 }
 
 .skills__container {
-  /* list-style-type: none; */
   margin: auto;
+  vertical-align: top;
 }
 
 .skills__item {
   display: inline-block;
-  justify-content: top;
-  vertical-align: middle;
+  vertical-align: top;
 }

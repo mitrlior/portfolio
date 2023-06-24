@@ -61,16 +61,15 @@ const ContactMe = () => {
   return (
     <div id="contact-me">
       <h1>Contact me</h1>
-
       <div className="contact__ways reveal">
         <div className="contact__icon" onClick={() => handleClick(linkedinUrl)}>
-          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i className="fa-brands fa-linkedin fa-2x"></i>
         </div>
         <div className="contact__icon" onClick={() => handleClick(gitUrl)}>
-          <i class="fa-brands fa-square-github fa-2x"></i>
+          <i className="fa-brands fa-square-github fa-2x"></i>
         </div>
         <div className="contact__icon" onClick={() => handleClick(whatsappUrl)}>
-          <i class="fa-brands fa-square-whatsapp fa-2x"></i>
+          <i className="fa-brands fa-square-whatsapp fa-2x"></i>
         </div>
       </div>
       <form ref={form} onSubmit={sendEmail} className="contact-me__form reveal">

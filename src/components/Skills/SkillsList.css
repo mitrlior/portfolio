@@ -2,7 +2,8 @@
   color: inherit;
   background: var(--container-background-color);
   width: 15rem;
-  height: 18rem;
+  height: auto;
+  align-items: top;
   padding: 1rem;
   margin: 1rem;
   border-radius: 12px;
@@ -12,7 +13,7 @@
 }
 
 .skills-list__title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .skills-list li {

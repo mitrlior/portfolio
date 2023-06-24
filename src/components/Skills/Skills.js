@@ -7,25 +7,28 @@ const Skills = () => {
     {
       title: "Programming Languages",
       skills: ["JavaScript", "TypeScript", "Python", "Java"],
+      key: 0
     },
     {
       title: "Frontend Technologies",
       skills: ["React", "HTML", "JavaScript", "CSS"],
+      key: 1
     },
     {
       title: "Backend Technologies",
-      skills: ["Express", "Flask", "Spring"],
+      skills: ["Node js","Express", "Flask", "Spring"],
+      key: 2
     },
   ];
   return (
     <div id="skills">
       <div className="reveal">
-        <h1>My Skills!</h1>
+        <h1>My Skills</h1>
         <div className="skills__container">
           {skillsLists.map((item) => (
-            <li className="skills__item">
-              <SkillsList title={item.title} skills={item.skills} />
-            </li>
+            <div className="skills__item">
+              <SkillsList title={item.title} skills={item.skills} key={item.key}/>
+            </div>
           ))}
         </div>
       </div>
