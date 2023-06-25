@@ -10,15 +10,15 @@ const AboutMe = () => {
           <ul className="about-me__items">
             <li className="about-me__item">Full-Stack / Backend Developer</li>
             <li className="about-me__item">
-              I have 1 year experience in Backend Development with JavaScript and
+              1 year experience in Backend Development with JavaScript and
               TypeScript
             </li>
             <li className="about-me__item">
               Passionate about new technologies and fast learner
             </li>
             <li className="about-me__item">
-              I have a degree in Software Engineering from Afeka college with
-              majoring in AI and deep learning
+              Bsc. in Software Engineering from Afeka college with majoring in
+              AI and deep learning
             </li>
           </ul>
         </div>

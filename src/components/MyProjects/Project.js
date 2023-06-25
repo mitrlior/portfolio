@@ -18,11 +18,12 @@ const Project = (props) => {
         className=" "
         onClick={() => handleClick(props.git)}
       />
+      {props.demo ?
       <Button
         title="Demo"
-        className=""
+        className=" "
         onClick={() => handleClick(props.demo)}
-      />
+      /> : null}
     </div>
   );
 };

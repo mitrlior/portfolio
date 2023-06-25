@@ -63,13 +63,13 @@ const ContactMe = () => {
       <h1>Contact me</h1>
       <div className="contact__ways reveal">
         <div className="contact__icon" onClick={() => handleClick(linkedinUrl)}>
-          <i className="fa-brands fa-linkedin fa-2x"></i>
+          <i className="fa-brands fa-linkedin fa-2x" />
         </div>
         <div className="contact__icon" onClick={() => handleClick(gitUrl)}>
-          <i className="fa-brands fa-square-github fa-2x"></i>
+          <i className="fa-brands fa-square-github fa-2x" />
         </div>
         <div className="contact__icon" onClick={() => handleClick(whatsappUrl)}>
-          <i className="fa-brands fa-square-whatsapp fa-2x"></i>
+          <i className="fa-brands fa-square-whatsapp fa-2x" />
         </div>
       </div>
       <form ref={form} onSubmit={sendEmail} className="contact-me__form reveal">
@@ -97,6 +97,7 @@ const ContactMe = () => {
           type="text"
           labelText="Message"
           name="message"
+          rows="7"
           labelClassName="contact-me__label"
           placeholder="Your Message"
           maxLength="150"

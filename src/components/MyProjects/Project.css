@@ -1,12 +1,14 @@
 .project__container {
   background-color: var(--container-background-color);
-  display: inline-block;
+  display: table-cell;
   padding: 0 2rem 2rem 2rem;
   margin: 1rem;
   width: 35vw;
+  height: 100%;
   border-radius: var(--box-border-radius);
   box-shadow: var(--box-shadow);
   justify-content: center;
+  vertical-align: middle;
 }
 
 .project__title {
@@ -26,6 +28,7 @@
 
 @media screen and (max-width: 1024px) {
   .project__container{
+    display: block;
     width: 90vw;
     margin: 5vh auto;
     padding: 3vh 2vw;

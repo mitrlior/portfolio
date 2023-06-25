@@ -4,29 +4,29 @@ import "./NavBar.css";
 
 const sections = [
   {
-    title: "home",
+    title: <i class="fa-solid fa-house" />,
     destination: "#home",
-    key: 0
+    key: 0,
   },
   {
-    title: "about me",
+    title: <i class="fa-solid fa-circle-info" />,
     destination: "#about-me",
-    key: 1
+    key: 1,
   },
   {
-    title: "skills",
+    title: <i class="fa-solid fa-gears" />,
     destination: "#skills",
-    key: 2
+    key: 2,
   },
   {
-    title: "my projects",
+    title: <i class="fa-solid fa-diagram-project" />,
     destination: "#my-projects",
-    key: 3
+    key: 3,
   },
   {
-    title: "contact me",
+    title: <i class="fa-solid fa-address-card" />,
     destination: "#contact-me",
-    key: 4
+    key: 4,
   },
 ];
 

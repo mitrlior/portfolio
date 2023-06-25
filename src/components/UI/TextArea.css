@@ -5,9 +5,16 @@
     border-color: #4483d6;
     resize: none;
     color: white;
-    margin: 1rem;
-    padding: 4rem 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    height: auto;
 }
+
+.text-area::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
 
 .text-area:focus {
     outline: none

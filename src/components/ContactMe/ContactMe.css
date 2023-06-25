@@ -49,6 +49,7 @@
   background-color: var(--container-background-color);
   border-radius: var(--box-border-radius);
   flex-direction: column;
+  height: auto;
 }
 
 .contact-me__label {
@@ -58,10 +59,6 @@
 #contact-me input,
 #contact-me textarea {
   width: 90%;
-}
-
-#contact-me textarea {
-  height: 2rem;
 }
 
 .fa-linkedin {

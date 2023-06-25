@@ -1,15 +1,16 @@
 .nav-bar__container {
   background: #272727;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav-bar__menu {
+  position: fixed;
+  left: 50%;
+  /* transform: translate(-50%, 0); */
   background: #272727;
   opacity: 0.4;
   padding: 0.5rem;
-  position: fixed;
   bottom: 2rem;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -21,8 +22,8 @@
 }
 @media (max-width: 1024px) {
   .nav-bar__menu {
-    width: 100%;
+    font-size: 1rem;
+    padding: 2vw;
     bottom: 0%;
-    padding: 0;
   }
 }

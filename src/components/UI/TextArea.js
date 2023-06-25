@@ -10,6 +10,7 @@ const TextArea = (props) => {
       <textarea
         type={props.type}
         name={props.name}
+        rows={props.rows}
         className={`text-area ${props.className}`}
         placeholder={props.placeholder}
         maxLength={props.maxLength}
