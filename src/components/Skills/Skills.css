@@ -1,6 +1,7 @@
 #skills {
   color: white;
   margin: 20vh auto;
+  height: 100vh;
 }
 
 .skills__container {
@@ -11,4 +12,10 @@
 .skills__item {
   display: inline-block;
   vertical-align: top;
+}
+
+@media screen and (max-width: 1024px) {
+  #skills{
+    height: auto;
+  }
 }
