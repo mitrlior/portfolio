@@ -5,7 +5,7 @@
     border-color: #4483d6;
     resize: none;
     color: white;
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 1rem;
     height: auto;
 }
@@ -22,7 +22,7 @@
 
 @media(max-width: 1024px) {
   .text-area{
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: 1.5rem 1rem;
   }
 }
