@@ -8,7 +8,7 @@ const AboutMe = () => {
         <p className="about-me__title">About Me</p>
         <div className="about-me__container">
           <ul className="about-me__items">
-            <li className="about-me__item">Full-Stack / Backend Developer</li>
+            <li className="about-me__item">Full Stack / Backend Developer</li>
             <li className="about-me__item">
               1 year experience in Backend Development with JavaScript and
               TypeScript
