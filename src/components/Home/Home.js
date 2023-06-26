@@ -16,7 +16,7 @@ const Home = () => {
           </p>
           <a href="#about-me">
             <div className="home__button">
-              About me&nbsp;
+              About Me&nbsp;
               <div class="home__arrow">&#10145;</div>
             </div>
           </a>

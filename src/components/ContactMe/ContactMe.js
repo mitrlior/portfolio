@@ -59,8 +59,8 @@ const ContactMe = () => {
   };
 
   return (
-    <div id="contact-me">
-      <h1>Contact me</h1>
+    <div id="contact-me" className="reveal">
+      <h1>Contact Me</h1>
       <div className="contact__ways reveal">
         <div className="contact__icon" onClick={() => handleClick(linkedinUrl)}>
           <i className="fa-brands fa-linkedin fa-2x" />

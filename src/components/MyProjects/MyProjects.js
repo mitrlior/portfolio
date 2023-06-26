@@ -27,7 +27,7 @@ const MyProjects = () => {
   ];
 
   return (
-    <div id="my-projects">
+    <div id="my-projects" className="reveal">
       <h1>My Projects</h1>
       <div className="projects">
         {projects.map((project) => (
