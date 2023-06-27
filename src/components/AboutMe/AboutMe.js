@@ -17,7 +17,7 @@ const AboutMe = () => {
               Passionate about new technologies and fast learner
             </li>
             <li className="about-me__item">
-              Bsc. in Software Engineering from Afeka college with majoring in
+              B.Sc. in Software Engineering from Afeka college with majoring in
               AI and deep learning
             </li>
           </ul>
