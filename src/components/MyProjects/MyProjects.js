@@ -27,19 +27,21 @@ const MyProjects = () => {
   ];
 
   return (
-    <div id="my-projects" className="reveal">
-      <h1>My Projects</h1>
-      <div className="projects">
-        {projects.map((project) => (
-          <Project
-            id={project.id}
-            title={project.title}
-            image={project.image}
-            git={project.git}
-            demo={project.demo}
-            description={project.description}
-          />
-        ))}
+    <div id="my-projects">
+      <div className="reveal">
+        <h1>My Projects</h1>
+        <div className="projects">
+          {projects.map((project) => (
+            <Project
+              id={project.id}
+              title={project.title}
+              image={project.image}
+              git={project.git}
+              demo={project.demo}
+              description={project.description}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
