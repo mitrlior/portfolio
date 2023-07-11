@@ -1,7 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import bird from "../../assets/bird.jpg";
-import nuble from "../../assets//nuble.jpg";
 
 import "./MyProjects.css";
 
@@ -11,7 +9,7 @@ const MyProjects = () => {
       id: 1,
       title: "Bird's identifier",
       git: "https://github.com/mitrlior/BirdsAppFinalProject",
-      image: bird,
+      image: `${process.env.PUBLIC_URL}/img/bird.png`,
       description:
         "Birds identifier app, for Software Engineering final project, react-native, Flask, AWS",
     },
@@ -20,9 +18,16 @@ const MyProjects = () => {
       title: "Nuble",
       git: "https://github.com/mitrlior/Nuble",
       demo: "https://mitrlior.github.io/Nuble/",
-      image: nuble,
-      description:
-        "You get 6 tries to guess the hidden equation! You get one hint, the value! All your guesses need to equate to the value to be accepted.",
+      image: `${process.env.PUBLIC_URL}/img/nuble.jpg`,
+      description: "You get 6 tries to guess the hidden equation!",
+    },
+    {
+      id: 2,
+      title: "Memory Game",
+      git: "https://github.com/mitrlior/Memory-Game",
+      demo: "https://mitrlior.github.io/Memory-Game/",
+      image: `${process.env.PUBLIC_URL}/img/memory-game.png`,
+      description: "Memory game with React",
     },
   ];
 
